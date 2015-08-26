@@ -123,7 +123,7 @@ wire SPI0_SS_O_pin;
 
 assign gpio=3'b011;//tx PA1    ,rx in1
 assign rf_reset=1'b1;
-assign txen=1'b1;
+assign txen=1'b0;
 assign rxen=1'b1;
 
 //-------------------------------------------------------------------------
